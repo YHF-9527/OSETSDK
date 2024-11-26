@@ -5,18 +5,11 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/YHF-9527/OSETSDK"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { 'shenshi' => 'yaohaofei@shenshiads.com' }
-
   s.platform     = :ios, "12.0"
   s.ios.deployment_target = '12.0'
-
-
-    s.source = { :git => 'https://github.com/YHF-9527/OSETSDK.git', :tag => '6.3.4.3' }
-
-
+  s.source = { :git => 'https://github.com/YHF-9527/OSETSDK.git', :tag => '6.3.4.3' }
   # 资源文件路径
-  s.resources = 'OSETSDK/Resource/OSETSDK.bundle'
-
+  s.resources = 'Resource/OSETSDK.bundle'
   # vendored framework
-  s.vendored_frameworks = 'OSETSDK/OSETSDK.xcframework'
-
+  s.vendored_frameworks = 'OSETSDK.xcframework'
 end
