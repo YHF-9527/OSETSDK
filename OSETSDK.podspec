@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "OSETSDK"
-  s.version      = "6.3.4.4"
+  s.version      = "6.3.4.6"
   s.summary      = "AdSet广告对接聚合类"
   s.homepage     = "https://github.com/YHF-9527/OSETSDK"
   s.license      = { :type => "MIT", :file => "LICENSE" }
