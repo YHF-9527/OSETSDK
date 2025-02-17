@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "OSETSDK"
-  s.version      = "2.0.2"  # 修改版本号
+  s.version      = "2.0.3"  # 修改版本号
   s.summary      = "AdSet广告对接聚合类"
   s.homepage     = "https://github.com/YHF-9527/OSETSDK"
   s.license      = { :type => "MIT", :file => "LICENSE" }
@@ -32,11 +32,11 @@ Pod::Spec.new do |s|
 
   # 其他框架和资源
   s.frameworks = ["Foundation", "UIKit"]
-  #  s.default_subspecs = ['OSETSDK']
+    s.default_subspecs = ['OSETSDK']
 
   s.subspec 'OSETSDK' do |ss|
     ss.ios.deployment_target = '13.0'
     ss.vendored_frameworks = 'OSETSDK/OSETSDK.xcframework'
-    ss.resources = ['OSETSDK/OSETSDK.bundle']
+     # ss.resources = ['OSETSDK/OSETSDK.bundle']
   end
 end
